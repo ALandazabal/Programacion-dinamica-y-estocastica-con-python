@@ -13,6 +13,8 @@ class Campo(object):
 
 		self.coordenadas_de_borrachos[borracho] = nueva_coordenada
 
+		return self.coordenadas_de_borrachos[borracho]
+
 	def obtener_coordenada(self, borracho):
 		return self.coordenadas_de_borrachos[borracho]
 		
